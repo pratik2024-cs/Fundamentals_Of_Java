@@ -1,0 +1,63 @@
+Problem Statement:
+Objective: To learn the process of creating classes and objects
+
+ 
+
+Problem Description: Infosys University is automating the process of registration of students and displaying the details of the registered students along with their residential status. The residential status can be "H" for hostellers and "D" for day scholars. To achieve the requirement, they created a class Student having getters and setters in order to access the private member variables. getxxx() and setxxx() methods are the getter and setter methods, where 'xxx' is the member variable name. The class diagram is given below for your reference-
+
+Student:
+
+ 
+
+ex1.1
+Implement the class diagram mentioned above and use an appropriate Tester class to check your code. In the tester class, follow the steps in the below-mentioned screenshot: 
+
+ 
+
+ 
+public class StudentTester{
+   
+   public static void main(string[] args){
+      //Create an object of Student class
+      //Use setter methods to set the values
+      //Use getter methods with proper escape sequences to display values
+   }
+}
+Sample input and Outputs are given below
+
+Input 1:
+
+ 
+
+ex1.3
+Output:
+
+Output:
+Student Name       :   Jacob
+Student Id         :   1001
+Qualifying marks   :   80.0
+Year of Engineering:   3
+Residential status :   Hostellers
+ 
+Input 2:
+
+ 
+
+ 
+
+ex1.5
+Output:
+
+Output:
+Student Name       :   Peter
+Student Id         :   1002
+Qualifying marks   :   83.0
+Year of Engineering:   2
+Residential status :   Day Scholar
+ 
+Summary of this exercise:
+
+You have learned:
+
+To create a class based on the class diagram.
+To create an object and to use getter and setter methods.
